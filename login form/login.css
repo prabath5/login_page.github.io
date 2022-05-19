@@ -1,0 +1,75 @@
+body {
+        background-image: url(https://images.unsplash.com/photo-1610465299993-e6675c9f9efa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwd2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+        background-color: #e9e9e9;
+        background-size: cover;
+        margin:0;
+        padding:0;
+        background-position: center;
+    }
+.loginbox{
+        width:320px;
+        height:420px;
+        background:#fff;
+        color:#fff;
+        top: 30%;
+        left:40%;
+        position:absolute;
+        transform: translate(-50% -50%);
+        box-sizing: border-box;
+        border-width: 1px;
+        border-color: bisque;
+        border-radius: 20px;
+        padding: 70px 30px;
+}
+.imgset{
+        width:100px;
+        height:100px;
+        border-radius: 50%;
+        background-color:blanchedalmond;
+        position:absolute;
+        top:-50px;
+        left:calc(50% - 50px);
+}
+h1{
+        color: black;
+        margin:0;
+        padding:0 0 20px;
+        text-align: center;
+        font-size:22px;
+        
+}
+.loginbox p{
+        margin: 0;
+        color:#000;
+        font-weight:bold;
+}
+.loginbox input{
+        width:100%;
+        margin-bottom:20px;
+}
+.loginbox input[type="text"] , input[type="password"]
+{
+        border:none;
+        border-bottom: 1px solid #000;
+        background:transparent;
+        outline: none;
+        height: 40px;
+        font-size:16px;
+        color: #000;
+
+}
+.loginbox input[type="submit"]
+{
+        border:none;
+        
+        font-size:18px;
+        background:red;
+        color:white;
+        outline: none;
+        height: 40px;
+        border-radius: 10px;
+
+}
+.sailu{
+        color: blue;
+}
